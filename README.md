@@ -28,50 +28,51 @@ npm install
 
 
 ## 📂 Project Structure
+```text
 src
 ├── api.js
 ├── App.js
 ├── App.test.js
 ├── auth
-│ ├── Login.js
-│ └── Register.js
+│   ├── Login.js
+│   └── Register.js
 ├── chat
-│ ├── ChatArea.js
-│ ├── ChattingBox.js
-│ ├── Chatting.js
-│ └── MessageInputBox.js
+│   ├── ChatArea.js
+│   ├── ChattingBox.js
+│   ├── Chatting.js
+│   └── MessageInputBox.js
 ├── common
-│ └── Modal.js
+│   └── Modal.js
 ├── header
-│ └── HeaderArea.js
+│   └── HeaderArea.js
 ├── index.css
 ├── index.js
 ├── menu
-│ ├── ChatRoom.js
-│ ├── MenuContent.js
-│ └── Menu.js
+│   ├── ChatRoom.js
+│   ├── MenuContent.js
+│   └── Menu.js
 ├── reportWebVitals.js
 ├── Request.js
 ├── setupTests.js
 ├── store
-│ └── store.js
+│   └── store.js
 └── style
-├── app
-│ └── appArea.module.css
-├── chat
-│ ├── chatArea.module.css
-│ ├── chat.module.css
-│ ├── chattingBox.module.css
-│ ├── chatting.module.css
-│ └── messageInputBox.module.css
-├── header
-│ └── headerArea.module.css
-├── menu
-│ ├── chatRoom.module.css
-│ ├── menuContent.module.css
-│ └── menu.module.css
-└── modal
-└── modal.module.css
+    ├── app
+    │   └── appArea.module.css
+    ├── chat
+    │   ├── chatArea.module.css
+    │   ├── chat.module.css
+    │   ├── chattingBox.module.css
+    │   ├── chatting.module.css
+    │   └── messageInputBox.module.css
+    ├── header
+    │   └── headerArea.module.css
+    ├── menu
+    │   ├── chatRoom.module.css
+    │   ├── menuContent.module.css
+    │   └── menu.module.css
+    └── modal
+        └── modal.module.css
 
 ## 프로젝트 실행 
 
