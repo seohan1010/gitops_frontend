@@ -28,23 +28,50 @@ npm install
 
 
 ## 📂 Project Structure
-src/
-├── auth/          # 인증 관련 컴포넌트
-├── chat/          # 채팅 UI 및 로직
-├── common/        # 공통 컴포넌트
-├── header/        # 헤더 UI
-├── menu/          # 메뉴 UI
-├── store/         # Zustand 상태 관리
-├── style/         # 전역 스타일
-│
+src
+├── api.js
 ├── App.js
 ├── App.test.js
-├── Request.js     # Axios 공통 요청 모듈
-├── api.js         # API 설정
+├── auth
+│ ├── Login.js
+│ └── Register.js
+├── chat
+│ ├── ChatArea.js
+│ ├── ChattingBox.js
+│ ├── Chatting.js
+│ └── MessageInputBox.js
+├── common
+│ └── Modal.js
+├── header
+│ └── HeaderArea.js
 ├── index.css
 ├── index.js
+├── menu
+│ ├── ChatRoom.js
+│ ├── MenuContent.js
+│ └── Menu.js
 ├── reportWebVitals.js
-└── setupTests.js
+├── Request.js
+├── setupTests.js
+├── store
+│ └── store.js
+└── style
+├── app
+│ └── appArea.module.css
+├── chat
+│ ├── chatArea.module.css
+│ ├── chat.module.css
+│ ├── chattingBox.module.css
+│ ├── chatting.module.css
+│ └── messageInputBox.module.css
+├── header
+│ └── headerArea.module.css
+├── menu
+│ ├── chatRoom.module.css
+│ ├── menuContent.module.css
+│ └── menu.module.css
+└── modal
+└── modal.module.css
 
 ## 프로젝트 실행 
 
